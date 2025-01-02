@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Wallet Connect App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
+Este projeto foi desenvolvido com o objetivo de demonstrar minhas habilidades técnicas e meu entendimento sobre desenvolvimento Web3. Ele é uma aplicação frontend que permite aos usuários conectar suas carteiras digitais (somente Metamask) e realizar transações simples na blockchain Ethereum. Essa aplicação tem como propósito evidenciar minha capacidade de trabalhar com tecnologias blockchain, como Solidity, Ether.js e integrações de carteiras, enquanto mantenho um design moderno e funcional.
 
-## Available Scripts
+## Funcionalidades Principais
+- **Conexão com Carteira Metamask**: A aplicação detecta e conecta exclusivamente à Metamask, garantindo uma experiência segura e direta.
+- **Envio de Transações**: Permite o envio de 0.000001 ETH para uma carteira de teste (“0x719C23d4ED66cd6070c33fbb3382caED1C3124D7”). Essa funcionalidade tem como finalidade demonstrar interações básicas com a blockchain Ethereum.
+- **Mensagens de Aviso**: Inclui alertas amigáveis, porém informativos, para que o usuário esteja ciente de que os valores enviados são para fins de teste e não serão reembolsados.
 
-In the project directory, you can run:
+## Motivação
+Este projeto foi criado com o intuito de me destacar no mercado de blockchain como desenvolvedor. Ele é um reflexo do meu comprometimento com o aprendizado e a aplicação prática dos conceitos que venho estudando. Meu objetivo é mostrar aos recrutadores minha habilidade de criar aplicações com:
+- Integração funcional de carteiras digitais;
+- Interface amigável e moderna, com design atraente;
+- Boas práticas no desenvolvimento de aplicações Web3.
 
-### `npm start`
+## Tecnologias Utilizadas
+- **React.js**: Framework JavaScript utilizado para construir a interface do usuário.
+- **Ether.js**: Biblioteca usada para conectar e interagir com a blockchain Ethereum.
+- **CSS Customizado**: Para criar um design moderno baseado nas cores laranja e preto, inspirado no tema da Metamask.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Rodar o Projeto
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+2. Clone o repositório:
+   ```bash
+   git clone https://github.com/leumiranda/wallet-connect-app.git
+   ```
+3. Acesse a pasta do projeto:
+   ```bash
+   cd wallet-connect-app
+   ```
+4. Instale as dependências:
+   ```bash
+   npm install
+   ```
+5. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
+6. Abra no navegador: [http://localhost:3000](http://localhost:3000)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades em Destaque
+- **Design Responsivo**: Inspirado no tema escuro da Metamask, com cores que chamam a atenção para elementos-chave.
+- **Segurança**: Força a conexão exclusivamente com a carteira Metamask, evitando problemas de compatibilidade.
+- **Fluxo de Transações**: Simples e direto, com mensagens claras para o usuário em cada etapa.
 
-### `npm test`
+## Prints da Interface
+![Tela Principal da App](screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contato
+Se você acredita que eu posso agregar à sua equipe, entre em contato comigo:
 
-### `npm run build`
+- **Nome**: José Leandro Miranda Souza
+- **LinkedIn**: [leumiranda](https://www.linkedin.com/in/leumiranda/)
+- **GitHub**: [leumiranda](https://github.com/leumiranda)
+- **E-mail**: leumiranda.ads@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+Espero que este projeto mostre meu potencial e minha dedicação para iniciar uma carreira de sucesso no universo blockchain. Qualquer feedback ou sugestão serão muito bem-vindos!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
