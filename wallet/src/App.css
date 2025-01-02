@@ -1,0 +1,97 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* Cor escura de fundo */
+  color: #f7f7f7; /* Texto claro */
+}
+
+/* Contêiner principal */
+.App {
+  text-align: center;
+}
+
+/* Cabeçalho com o logo */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+/* Estilos do logo da Metamask */
+.App-logo {
+  height: 120px;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o card de interação */
+.card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Títulos e textos dentro do card */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Botões */
+.primary-button, .secondary-button {
+  background-color: #f68d00; /* Laranja mais aceso */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.primary-button:hover, .secondary-button:hover {
+  background-color: #d87b00; /* Tom de laranja mais escuro */
+}
+
+/* Texto de alerta */
+.warning {
+  color: #ff6347;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Status da transação */
+.transaction-status {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #4caf50; /* Verde para sucesso */
+}
+
+/* Estilos para o footer */
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.8em;
+  color: #bbb;
+}
+
+/* Link do LinkedIn */
+.App-link {
+  color: #f68d00; /* Laranja para o link */
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
